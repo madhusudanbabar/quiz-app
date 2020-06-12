@@ -3,7 +3,7 @@
     <v-app-bar app color="primary" dark>
       <h3>Fancy quiz app</h3>
       <v-spacer></v-spacer>
-      <h4>Counter: {{ numCorrect }} / {{ numTotal }}</h4>
+      <h4>score: {{ numCorrect }} / {{ numTotal }}</h4>
     </v-app-bar>
 
     <v-main>

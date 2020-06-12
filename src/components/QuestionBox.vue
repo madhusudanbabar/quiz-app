@@ -15,7 +15,7 @@
         >{{ option }}</v-btn>
       </v-container>
 
-      <hr />
+      <hr class="my-5" />
 
       <v-btn class="mx-5" raised color="primary"
       @click="submitAnswer"
@@ -120,5 +120,8 @@ export default {
 .wrong {
   background-color: orangered;
   color: aliceblue !important;
+}
+.my-5{
+  margin: 0 2em;
 }
 </style>
