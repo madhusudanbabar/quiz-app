@@ -19,7 +19,7 @@
 
       <b-button variant="primary"
       @click="submitAnswer"
-      :disabled="!selected || answered"
+      :disabled="selected === null || answered"
       >Submit</b-button>
       <b-button variant="success" 
       @click="next" :disabled="!answered">Next</b-button>
