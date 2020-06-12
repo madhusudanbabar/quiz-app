@@ -119,5 +119,6 @@ export default {
 
 .wrong {
   background-color: orangered;
+  color: aliceblue;
 }
 </style>
