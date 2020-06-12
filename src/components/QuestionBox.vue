@@ -2,7 +2,7 @@
   <div class="question-box" style="text-align: center">
     <div>
       <div class="row">
-        <h1 style="display; inline-block; text-align: center">Quiz</h1>
+        <h1 style="margin: 0 auto; margin-bottom: 1.5em" >Quiz</h1>
       </div>
       <template>{{ currentQuestion.question }}</template>
 
