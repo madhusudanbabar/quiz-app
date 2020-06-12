@@ -1,9 +1,9 @@
 <template>
   <div>
-      <b-nav tabs>
-          <b-nav-item disabled>Fancy quiz app</b-nav-item>
-          <b-nav-item disabled>Counter: {{ numCorrect }} / {{ numTotal }}</b-nav-item>
-      </b-nav>
+      <v-toolbar tabs>
+          <v-toolbar-title >Fancy quiz app</v-toolbar-title>
+          <b-nav-item >Counter: {{ numCorrect }} / {{ numTotal }}</b-nav-item>
+      </v-toolbar>
   </div>
 </template>
 

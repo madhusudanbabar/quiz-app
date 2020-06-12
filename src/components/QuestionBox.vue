@@ -5,24 +5,24 @@
 
       <hr class="my-4" />
 
-      <b-list-group>
-        <b-list-group-item
-          class="list"
+      <v-container>
+        <v-btn text
+          class="list mx-5"
           v-for="(option, index) in shuffledAnswers"
           :key="index"
           @click.prevent="select(index)"
           :class="ansClass(index)"
-        >{{ option }}</b-list-group-item>
-      </b-list-group>
+        >{{ option }}</v-btn>
+      </v-container>
 
       <hr />
 
-      <b-button variant="primary"
+      <v-btn class="mx-5" raised color="primary"
       @click="submitAnswer"
       :disabled="selected === null || answered"
-      >Submit</b-button>
-      <b-button variant="success" 
-      @click="next" :disabled="!answered">Next</b-button>
+      >Submit</v-btn>
+      <v-btn raised color="success" 
+      @click="next" :disabled="!answered">Next</v-btn>
     </b-jumbotron>
   </div>
 </template>
@@ -110,15 +110,15 @@ export default {
 
 .selected {
   background-color: rgba($color: blue, $alpha: 0.6);
-  color: aliceblue;
+  color: aliceblue !important;
 }
 .correct {
   background-color: green;
-  color: aliceblue;
+  color: aliceblue !important;
 }
 
 .wrong {
   background-color: orangered;
-  color: aliceblue;
+  color: aliceblue !important;
 }
 </style>
