@@ -1,6 +1,9 @@
 <template>
   <div class="question-box" style="text-align: center">
-    <b-jumbotron header="Quiz" lead>
+    <div>
+      <div class="row">
+        <h1 style="display; inline-block; text-align: center">Quiz</h1>
+      </div>
       <template>{{ currentQuestion.question }}</template>
 
       <hr class="my-4" />
@@ -23,7 +26,7 @@
       >Submit</v-btn>
       <v-btn raised color="success" 
       @click="next" :disabled="!answered">Next</v-btn>
-    </b-jumbotron>
+    </div>
   </div>
 </template>
 
