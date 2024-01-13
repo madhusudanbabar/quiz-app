@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-app-bar app color="primary" dark>
-      <h3>Fancy quiz app</h3>
+      <h3>Fancy quiz app by <a href="https://madhusudan.live">Madhusudan</a> </h3>
       <v-spacer></v-spacer>
       <h4>score: {{ numCorrect }} / {{ numTotal }}</h4>
     </v-app-bar>
